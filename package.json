@@ -1,32 +1,20 @@
 {
   "name": "lyrical",
+  "version": "1.0.0",
+  "description": "Lyrics visualizer using LRC files",
+  "repository": "git@github.com:niazmsameer/Lyrical.git",
   "author": "Soomin Studio",
-  "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "start": "parcel index.html --out-dir runtime",
+    "build": "parcel build index.html --out-dir build --no-cache"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "lrc-kit": "^1.1.1"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.18.0",
-    "@typescript-eslint/parser": "^4.18.0",
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-typescript": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "@vue/eslint-config-airbnb": "^5.0.2",
-    "@vue/eslint-config-typescript": "^7.0.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-vue": "^7.0.0",
+    "parcel-bundler": "^1.12.5",
     "sass": "^1.32.13",
-    "sass-loader": "^10",
-    "typescript": "~4.1.5"
+    "typescript": "^4.2.4"
   }
 }
