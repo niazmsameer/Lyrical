@@ -5,8 +5,6 @@ Lyrics visualizer using LRC files
 
 _Note: Not tested for mobile_
 
-Visit the demo at https://lyrical.soomin.xyz/
-
 Upload an audio file and an LRC file seperately using the file upload dialog on the bottom.
 
 Use the on-screen audio controls on the bottom to control playback.
